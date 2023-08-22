@@ -1,0 +1,80 @@
+.revers-card {
+  width: 500px;
+  height: 250px;
+  background: linear-gradient(
+    90deg,
+    rgb(233, 233, 236),
+    rgb(196, 192, 214)
+  );
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 1px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.block-black {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: black;
+}
+.cvc{
+    width: 350px;
+    height: 30px;
+    text-align: end;
+    background: lightslategray;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+.lorem{
+    width: 320px;
+    text-align: center;
+    color: lightslategray;
+}
+
+
+@media (max-width: 420px){
+    .revers-card {
+        width: 380px;
+        height: 250px;
+        background: linear-gradient(
+          90deg,
+          rgb(233, 233, 236),
+          rgb(196, 192, 214)
+        );
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding-top: 1px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .block-black {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        background: black;
+      }
+      .cvc{
+          width: 350px;
+          height: 30px;
+          text-align: end;
+          background: lightslategray;
+          color: white;
+          padding: 5px;
+          font-size: 12px;
+      }
+      .lorem{
+          width: 280px;
+          text-align: center;
+          color: lightslategray;
+      }
+}

@@ -1,0 +1,89 @@
+.form-card {
+  width: 500px;
+  height: 250px;
+  background: linear-gradient(
+    90deg,
+    rgb(43, 43, 214),
+    rgb(88, 58, 237),
+    rgba(243, 94, 159, 1),
+    rgb(97, 16, 134)
+  );
+  border-radius: 20px;
+  color: white;
+  margin-left: 20px;
+}
+.div-krug {
+  display: flex;
+  margin: 10px;
+}
+.krug {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.krug-black {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.cardnumber{
+    margin: 20px;
+}
+.name-data {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+
+@media (max-width: 420px){
+  .form-card {
+    width: 380px;
+    height: 250px;
+    background: linear-gradient(
+      90deg,
+      rgb(43, 43, 214),
+      rgb(88, 58, 237),
+      rgba(243, 94, 159, 1),
+      rgb(97, 16, 134)
+    );
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+  }
+  .div-krug {
+    display: flex;
+    margin: 5px;
+  }
+  .krug {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: white;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .krug-black {
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .cardnumber{
+      margin: 10px;
+      font-size: 16px;
+      margin-bottom: 70px;
+  }
+  .name-data {
+    margin: 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 800px;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(7, 7, 42),
+    rgb(19, 8, 70),
+    rgb(59, 4, 84)
+  );
+}
+
+@media (max-width: 420px) {
+  .app {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 420px;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background: linear-gradient(
+      90deg,
+      rgb(7, 7, 42),
+      rgb(19, 8, 70),
+      rgb(59, 4, 84)
+    );
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}
